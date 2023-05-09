@@ -1,20 +1,38 @@
-package TypeCastingDemo;
+package project1;
 
 public class TypeCastingDemo {
 
 	public static void main(String[] args) {
-		        // Implicit type casting: smaller data type to larger data type
-		        int num1 = 10;
-		        double num2 = num1;
-		        System.out.println("Implicit type casting: " + num1 + " (int) to " + num2 + " (double)");
-
-		        // Explicit type casting: larger data type to smaller data type
-		        double num3 = 15.5;
-		        int num4 = (int) num3;
-		        System.out.println("Explicit type casting: " + num3 + " (double) to " + num4 + " (int)");
-		    }
 		
-
+		//implicit conversion
+		System.out.println("Implicit Type Casting");
+		char a='A';
+		System.out.println("Value of a: "+a);
+		
+		int b=a;
+		System.out.println("Value of b: "+b);
+		
+		float c=a;
+		System.out.println("Value of c: "+c);
+		
+		long d=a;
+		System.out.println("Value of d: "+d);
+		
+		double e=a;
+		System.out.println("Value of e: "+e);
+		
+				
+		System.out.println("\n");
+		
+		System.out.println("Explicit Type Casting");
+		//explicit conversion
+		
+		double x=45.5;
+		int y=(int)x;
+		System.out.println("Value of x: "+x);
+		System.out.println("Value of y: "+y);
+		
 	}
+}
 
 
